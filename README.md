@@ -8,7 +8,7 @@ In the project directory, you run:
 
 ## `npm install`
 
-## Available Scripts
+## How to run
 
 In the project directory, you can run:
 
