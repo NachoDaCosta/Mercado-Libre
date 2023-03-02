@@ -4,7 +4,7 @@ Hi, this is my version for the Mercado Libre website
 
 ## Install
 
-In the project directory, you run:
+In the project directory run:
 
 ## `npm install`
 
