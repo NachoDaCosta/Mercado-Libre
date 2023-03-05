@@ -1,5 +1,5 @@
 .products-container-big{
-    height: 3000px;
+    height: 2400px;
     width: 100%;
     background-color: #EBEBEB;
     display: grid;
@@ -227,4 +227,57 @@
 .see-store{
     color: #666;
     font-weight: bolder;
+}
+
+
+.container-full-categorias{
+    display: grid;
+    grid-template-rows: 20% 80%;
+    height: 600px;
+    align-items: center;
+}
+
+.container-categorias-imagenes{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    width: 100%;
+    height: 100%;
+    gap: 5px;
+}
+
+
+.row-categorias{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    gap: 5px;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.categoria-individual{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 60% 40%;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.image-categoria{
+    height: 100px
+}
+
+.title-categoria{
+    font-size: 30px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
 }

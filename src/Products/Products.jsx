@@ -243,6 +243,68 @@ const Products=()=>{
                     </div>
                 </div>
 
+
+                <div className="container-full-categorias">
+                    <div className="visita-text">
+                        <div>Categorias populares</div>
+                    </div>
+                    <div className="container-categorias-imagenes">
+                        <div className="row-categorias">
+                            <div className="categoria-individual">
+                                <img alt="" src="./imgs/car.jpeg" className="image-categoria"/>
+                                <div className="title-categoria">Autos</div>
+                            </div>
+                            
+                            <div className="categoria-individual">
+                            <img alt="" src="./imgs/phone.png" className="image-categoria"/>
+                                <div className="title-categoria">Celulares</div>
+                            </div>
+
+                            <div className="categoria-individual">
+                                <img alt="" src="./imgs/rpa.png" className="image-categoria"/>
+                                <div className="title-categoria">Ropa</div>
+                            </div>
+
+                            <div className="categoria-individual">
+                            <img alt="" src="./imgs/pc.png" className="image-categoria"/>
+                                <div className="title-categoria">Computacion</div>
+                            </div>
+
+                            <div className="categoria-individual">
+                                <img alt="" src="./imgs/casa.png" className="image-categoria"/>
+                                <div className="title-categoria">Inmuebles</div>
+                            </div>
+
+                        </div>
+                        
+                        <div className="row-categorias">
+                            <div className="categoria-individual">
+                                <img alt=""  className="image-categoria" src="./imgs/perro.png"/>
+                                <div className="title-categoria">Mascotas</div>
+                            </div>
+                            
+                            <div className="categoria-individual">
+                                <img alt=""  className="image-categoria" src="./imgs/lentes.png"/>
+                                <div className="title-categoria">Lentes</div>
+                            </div>
+ 
+                            <div className="categoria-individual">
+                                <img alt=""  className="image-categoria" src="./imgs/labial.png"/>
+                                <div className="title-categoria">Maquillaje</div>
+                            </div>
+
+                            <div className="categoria-individual">
+                                <img alt=""  className="image-categoria" src="./imgs/ball.png"/>
+                                <div className="title-categoria">Deportes</div>
+                            </div>
+
+                            <div className="categoria-individual"> 
+                                <img alt=""  className="image-categoria" src="./imgs/micro.png"/>
+                                <div className="title-categoria">Audio y Video</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             
