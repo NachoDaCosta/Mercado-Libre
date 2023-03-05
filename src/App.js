@@ -9,7 +9,7 @@ import Products from './Products/Products';
 function App() {
   return (
     <div className="App">
-        <Nav />
+        
         <News/>
         <Products  />
         <Footer />
