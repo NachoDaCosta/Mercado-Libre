@@ -46,9 +46,9 @@ const Products=()=>{
 
                 <div className="products-history">
                     <div className="individual-product-history">
-                        <div>
-                            <img alt="" src="https://http2.mlstatic.com/D_Q_NP_626789-MLU51824281692_102022-AB.webp"/>
-                        </div>
+                        
+                        <img alt="" src="https://http2.mlstatic.com/D_Q_NP_626789-MLU51824281692_102022-AB.webp" className="product-image"/>
+                        
                         <div className="prices">
                             <div className="price">$300</div>
                             <div className="green-taxes">10x $30 sin interés</div>
@@ -56,9 +56,9 @@ const Products=()=>{
                     </div>
 
                     <div className="individual-product-history">
-                        <div>
-                            <img alt="" src="https://http2.mlstatic.com/D_Q_NP_695307-MLU31698123822_082019-AB.webp"/>
-                        </div>
+                        
+                            <img alt="" src="https://http2.mlstatic.com/D_Q_NP_695307-MLU31698123822_082019-AB.webp" className="product-image"/>
+                        
                         <div className="prices">
                             <div className="price">$300</div>
                             <div className="green-taxes">10x $30 sin interés</div>
@@ -66,9 +66,9 @@ const Products=()=>{
                     </div>
 
                     <div className="individual-product-history">
-                        <div>
-                            <img alt="" src="https://http2.mlstatic.com/D_Q_NP_803818-MLU31241430495_062019-AB.webp"/>
-                        </div>
+                        
+                            <img alt="" src="https://http2.mlstatic.com/D_Q_NP_803818-MLU31241430495_062019-AB.webp" className="product-image"/>
+                        
                         <div className="prices">
                             <div className="price">$300</div>
                             <div className="green-taxes">10x $30 sin interés</div>
@@ -76,9 +76,9 @@ const Products=()=>{
                     </div>
 
                     <div className="individual-product-history">
-                        <div>
-                            <img alt="" src="https://http2.mlstatic.com/D_Q_NP_698793-MLU31244308516_062019-AB.webp"/>
-                        </div>
+                        
+                            <img alt="" src="https://http2.mlstatic.com/D_Q_NP_698793-MLU31244308516_062019-AB.webp" className="product-image"/>
+                        
                         <div className="prices">
                             <div className="price">$1200</div>
                             <div className="green-taxes">10x $120 sin interés</div>
@@ -86,9 +86,9 @@ const Products=()=>{
                     </div>
 
                     <div className="individual-product-history">
-                        <div>
-                            <img alt="" src="https://http2.mlstatic.com/D_Q_NP_640932-MLU49855811548_052022-AB.webp"/>
-                        </div>
+                        
+                            <img alt="" src="https://http2.mlstatic.com/D_Q_NP_640932-MLU49855811548_052022-AB.webp" className="product-image"/>
+                        
                         <div className="prices">
                             <div className="price">$600</div>
                             <div className="green-taxes">10x $60 sin interés</div>
@@ -103,9 +103,9 @@ const Products=()=>{
 
                 <div className="products-history">
                     <div className="individual-product-history">
-                        <div>
-                            <img alt="" src="https://http2.mlstatic.com/D_Q_NP_938303-MLA52149491470_102022-AB.webp"/>
-                        </div>
+                        
+                            <img alt="" src="https://http2.mlstatic.com/D_Q_NP_938303-MLA52149491470_102022-AB.webp" className="product-image"/>
+                        
                         <div className="prices">
                             <div className="price">U$S 769
                                 <p className="green-taxes">20% off</p>
@@ -115,9 +115,9 @@ const Products=()=>{
                     </div>
 
                     <div className="individual-product-history">
-                        <div>
-                            <img alt="" src="	https://http2.mlstatic.com/D_Q_NP_991491-MLU49459341521_032022-AB.webp"/>
-                        </div>
+                        
+                            <img alt="" src="	https://http2.mlstatic.com/D_Q_NP_991491-MLU49459341521_032022-AB.webp" className="product-image"/>
+                        
                         <div className="prices">
                             <div className="price">$1900 
                                 <p className="green-taxes">25% off</p>
@@ -127,9 +127,9 @@ const Products=()=>{
                     </div>
 
                     <div className="individual-product-history">
-                        <div>
-                            <img alt="" src="https://http2.mlstatic.com/D_Q_NP_736292-MLU49159816564_022022-AB.webp"/>
-                        </div>
+                        
+                            <img alt="" src="https://http2.mlstatic.com/D_Q_NP_736292-MLU49159816564_022022-AB.webp" className="product-image"/>
+                        
                         <div className="prices">
                             <div className="price">$873 
                                 <p className="green-taxes">15% off</p>
@@ -139,7 +139,7 @@ const Products=()=>{
 
                     <div className="individual-product-history">
                         <div>
-                            <img alt="" src="https://http2.mlstatic.com/D_Q_NP_723939-MLU49840936069_052022-AB.webp"/>
+                            <img alt="" src="https://http2.mlstatic.com/D_Q_NP_723939-MLU49840936069_052022-AB.webp" className="product-image"/>
                         </div>
                         <div className="prices">
                             <div className="price">$3.953  
@@ -150,9 +150,7 @@ const Products=()=>{
                     </div>
 
                     <div className="individual-product-history">
-                        <div>
-                            <img alt="" src="https://http2.mlstatic.com/D_Q_NP_931769-MLU52086338987_102022-AB.webp"/>
-                        </div>
+                            <img alt="" src="https://http2.mlstatic.com/D_Q_NP_931769-MLU52086338987_102022-AB.webp" className="product-image"/>
                         <div className="prices">
                             <div className="price">$600
                                 <p className="green-taxes">35% off</p>
@@ -166,7 +164,7 @@ const Products=()=>{
 
                 {/*Aca termina la primera parte de productos */}
                 <div className="imagen-oferta">
-                   <img alt="" src="https://http2.mlstatic.com/D_NQ_953195-MLA51812475835_102022-OO.jpg" />
+                   <img alt="" src="https://http2.mlstatic.com/D_NQ_953195-MLA51812475835_102022-OO.jpg" className="product-image"/>
                     <div className="ofertas-negra">
                             <div>OFERTAS DEL DIA</div>
                             <div>

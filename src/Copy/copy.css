@@ -1,0 +1,9 @@
+.copy{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.02);
+    font-weight: bolder;
+    color: dimgrey;
+}

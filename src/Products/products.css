@@ -1,5 +1,5 @@
 .products-container-big{
-    height: 2400px;
+    height: 2600px;
     width: 100%;
     background-color: #EBEBEB;
     display: grid;
@@ -81,8 +81,13 @@
     font-size: 20px;
 }
 
+.see-more-history:hover{
+    cursor: pointer;
+}
 
 .individual-product-history{
+    display: grid;
+    grid-template-rows: 60% 40%;
     background-color: white;
     width: 90%;
 }
@@ -97,9 +102,13 @@
     text-align: start;
 }
 
-.individual-product-history img{
-    height: 190px;
-    width: 190px;
+.product-image{
+    width: 100%;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
 }
 
 .green-taxes{
@@ -178,6 +187,7 @@
 }
 
 .tienda-individual{
+    border-radius: 20px;
     background-color: white;
     width: 90%;
     height: 90%;
@@ -189,6 +199,8 @@
 
 
 .img-bg-sore{
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
     width: 100%;
     height: 100%;
 }
@@ -199,8 +211,6 @@
     align-items: center;
     justify-items: center
 }
-
-
 
 .products-store{
     height: 70%;
@@ -242,14 +252,14 @@
     grid-template-rows: 50% 50%;
     width: 100%;
     height: 100%;
-    gap: 5px;
+    gap: 3px;
 }
 
 
 .row-categorias{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    gap: 5px;
+    gap: 2px;
     justify-items: center;
     align-items: center;
     width: 100%;
@@ -262,9 +272,14 @@
     height: 100%;
     width: 100%;
     display: grid;
-    grid-template-rows: 60% 40%;
+    grid-template-rows: 70% 30%;
     justify-items: center;
     align-items: center;
+}
+
+
+.categoria-individual:hover{
+    cursor: pointer;
 }
 
 
